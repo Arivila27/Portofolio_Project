@@ -1,0 +1,77 @@
+{
+  "name": "marketing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fracto/vue-credit-card": "^0.5.1",
+    "axios": "^0.18.0",
+    "bootstrap-select": "^1.13.12",
+    "core-js": "^2.6.5",
+    "electron": "^17.0.1",
+    "electron-pos-printer": "^1.2.4",
+    "html2canvas": "^1.0.0-rc.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.25",
+    "jw-vue-pagination": "^1.0.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.29.1",
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.5.1",
+    "vue-countdown-2": "^1.0.1",
+    "vue-currency-filter": "^3.4.3",
+    "vue-easytable": "^2.17.1",
+    "vue-form-wizard": "^0.8.4",
+    "vue-google-charts": "^0.3.3",
+    "vue-html-to-paper": "^1.4.4",
+    "vue-image-upload-resize": "^2.3.0",
+    "vue-monthly-picker": "^0.2.8",
+    "vue-multiselect": "^2.1.6",
+    "vue-numeric": "^2.3.0",
+    "vue-pagination-2": "^2.0.3",
+    "vue-paycard": "^0.6.0",
+    "vue-recaptcha": "^1.3.0",
+    "vue-router": "^3.0.3",
+    "vue-sweetalert2": "^2.1.1",
+    "vuejs-countdown": "^0.2.1",
+    "vuejs-countdown-timer": "^2.1.1",
+    "vuejs-datatable": "^2.0.0-alpha.7",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
